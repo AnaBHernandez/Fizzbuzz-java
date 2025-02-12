@@ -1,0 +1,13 @@
+# Archivos de compilación
+*.class
+
+# Directorios de compilación
+/bin/
+/out/
+
+# Configuración de IDEs
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
