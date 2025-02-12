@@ -1,31 +1,22 @@
-# 🎉 Kata FizzBuzz - JAVA
+# FizzBuzz Java
 
-Este proyecto implementa el famoso ejercicio FizzBuzz en Java. El objetivo es aplicar una serie de reglas para generar una salida basada en números enteros.
+Implementación del clásico FizzBuzz en Java usando `switch-case` y `Map<Integer, String>`.
 
-## 🚀 Requisitos
+## Uso
 
-- JDK 21
-- Maven
-- JUnit 5
-- Hamcrest
+1. Clonar: `git clone https://github.com/AnaBHernandez/Fizzbuzz-java.git`
+2. Compilar: `javac src/FizzBuzz.java`
+3. Ejecutar: `java FizzBuzz <numero>`
 
-## 📦 Configuración
+## Características
 
-1. **Compila el proyecto**:
+- Usa `switch-case` para manejar condiciones.
+- `Map<Integer, String>` para reglas de divisibilidad.
+- Devuelve "Fizz" (divisible por 3), "Buzz" (por 5), "FizzBuzz" (por ambos) o el número.
 
-    ```bash
-    mvn clean compile
-    ```
+## Autor
 
-## ▶️ Ejecución
+Ana B. Hernandez
 
-No se requiere una ejecución específica ya que es una librería que proporciona la funcionalidad de FizzBuzz.
-
-## 🧪 Pruebas
-
-El proyecto incluye pruebas unitarias para validar la funcionalidad de FizzBuzz. Las pruebas se pueden ejecutar con Maven utilizando el siguiente comando:
-
-```bash
-mvn test
 
 
